@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:todo_app_using_provider/todo/models/task_model.dart';
-import 'package:todo_app_using_provider/todo/presentation/notifiers/task_notifier.dart';
+import 'package:todo_app_using_provider/todo/presentation/notifiers/todo_list_notifier.dart';
 
 class AddTodo extends StatelessWidget {
   final controller = TextEditingController();
