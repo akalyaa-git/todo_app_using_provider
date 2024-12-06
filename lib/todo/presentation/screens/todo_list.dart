@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_app_using_provider/todo/presentation/notifiers/task_provider.dart';
+import 'package:todo_app_using_provider/todo/presentation/notifiers/task_notifier.dart';
 
 class TodoList extends StatelessWidget {
   const TodoList({super.key});
